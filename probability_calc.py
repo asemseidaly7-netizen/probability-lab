@@ -3,7 +3,7 @@ import random
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Probability Lab", page_icon="🪐")
+st.set_page_config(page_title="Chance Galaxy", page_icon="🌌")
 
 st.markdown("""
 <style>
@@ -44,9 +44,9 @@ def norm_cdf(x, mu, sigma):
     return 0.5 * (1 + math.erf((x - mu) / (sigma * math.sqrt(2))))
 
 
-st.sidebar.title("🪐 Probability Lab")
-st.sidebar.caption("Student: SEIDALY ASSEM")
-st.sidebar.caption("Teacher: Almas Abdullah")
+st.sidebar.title("🌌 Chance Galaxy")
+st.sidebar.caption("Made by Seidaly Assem")
+st.sidebar.caption("Instructor: Abdullah Almas")
 section = st.sidebar.radio("Sections", [
     "Combinatorics",
     "Events & Probability",
